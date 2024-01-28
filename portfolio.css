@@ -1,0 +1,100 @@
+.navposition
+{
+  position: fixed;
+
+}
+
+.nav-color1{
+    background-color: #e8e8e8;
+    padding-left: 46em;
+}
+
+.first-page{
+        
+    height: 100vh;
+  }
+  @media(max-width:430px)
+    {
+       .first-page{
+        height: 490px;
+       }
+    }
+  .first-page img{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: #707070;
+  }
+  .second-page{
+    /* height: 100vh; */
+    overflow: hidden;
+  }
+  .second-box{
+    margin: 4em;
+    border: 2px solid #bcbcbc;
+    border-radius: 20px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+  }
+  .second-box:hover{
+    background-color: rgb(254, 188, 250);
+  }
+  .third-page{
+    /* height: 100vh; */
+    /* background-color: #c2bdbd; */
+    padding: 20px;
+    overflow: hidden;
+  }
+  .third-box{
+    margin: 2em;
+    /* border: 2px solid #e9ffd9; */
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .third-row{
+    margin: 1em;
+    /* border: 2px solid #e9ffd9; */
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+  }
+  .fourth-page{
+    /* height: 100vh; */
+    /* background-color: #4f4f4f; */
+  }
+  .fourth-box
+  {
+    margin: 4em 2em 2em 2em;
+    /* border: 2px solid #e9ffd9; */
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+  }
+  .fifth-page{
+    height: 100vh;
+  }
+  .fifth-box{
+    border: 2px solid red;  
+    /* margin: 6em 15em 6em 15em ; */
+  }
+.footer{
+    background-color: #ee48ff;
+    text-align: center;
+    height: 50px;
+    padding-top: 1em;
+    color: white;
+    border-radius: 9px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: center;
+    
+}
