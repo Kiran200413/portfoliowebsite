@@ -1,211 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <!-----nav bar-->
-    <nav class=" navbar navbar-expand-lg bg-body-tertiary navposition ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Kiran's portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav" >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="Projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="Contact.html">Contact Me</a>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      
-      <!-- Introduction -->
-      <section class="intro">
-        <div class="d-flex flex-row mb-3 justify-content-center align-items-center first-page" >
-          <div class="p-2"><img id="img" src="KiranBgRem.png" alt="" height="200" width="200"></div>
-          <div class="p-2" ><p style="line-height: 24px;">Hello I'm <br><span style="font-size: 34px;"><b>Kiran Murtadak</b></span><br>MERN Developer</p></div>
-        </div>
-      </section>
-      
-
-      <!-- About me -->
-
-      <section id="about" class="container-fluid second-page">
-        <h1 class="text-center" style="background-color: #f4f4f4; color: #000000;">About Me</h1><br>
-        <div class="row">
-          <div class="row text-center">
-            <h4 style="color: #00478d;">Vision</h4>
-            <p style="color: #4f4f4f;">I am hard-working, honest individual who likes to take responsibility
-              and giving 100%. I am always eager to learn new things rather than
-              giving up. My aim is to become an expert in the field of software
-              development.</p>
-          </div>
-          <div class="col second-box">
-            <h4 class="text-center" style="color: #00478d;">SSC</h4>
-            <p><em>Gadge Maharaj Awjinath Vidyalaya,Mirpur-Lohare</em></p>
-            <p>Secure Percentage : 88.40% <br><br>
-            3rd Rank in Gadge Maharaj Mission Mumbai in all over Maharashtra</p>
-          </div>
-          <div class="col second-box">
-            <h4 style="color: #00478d;">Bachelor Degree</h4>
-            <p><em>Amrutvahini College of Engineering,Sangamner</em></p>
-            <p> <u>Information Technology</u></p>
-            <p >CGPA's :<br><br><button type="button" class="btn btn-primary " >FE-9.05</button>
-              <a href=""><button type="button" class="btn btn-primary">SE-8.43</button></a><br><br>
-              <button type="button" class="btn btn-primary ml-2">TE-9.67</button>
-              <button type="button" class="btn btn-primary ml-2">BE-10.0</button>
-            </p>
-          </div>
-          <div class="col second-box">
-            <h4 class="text-center" style="color: #00478d;">HSC</h4>
-            <p><em>P.V.P. Junior College,Loni</em></p>
-            <p>Secure Percentage : 84.30%</p>
-          </div>
-          
-        </div>
-      </section>
-
-      <!-- Skills -->
-
-      <section id="skills" class="container-fluid third-page">
-        <h1 class="text-center" style="background-color: #f4f4f4; color: #161616;">Skills</h1><br>
-        <div class="row text-center">
-          <div class="col third-box">
-            <h4 style="color: #00478d;">Programming Languages</h4><br>
-            
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">C-Language</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80% ">C++</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Java</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 10%">Python</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Html</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30% ">CSS</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%">Bootstrap</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">Object-Oriented Programming</div>
-            </div><br>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">Data Structure and Algorithm</div>
-            </div>
-          </div>
-          <div class="col third-box">
-           <div class="row third-row" style="border: 2px solid black;" >
-            <h4 style="color: #00478d;">FrameWorks</h4>
-            <p>Django <br>ReactJS <br>ExpressJS</p>
-           </div>
-           <div class="row text-center third-row" style="border: 2px solid black;">
-            <h4 style="color: #00478d;">Subjects</h4>
-            <p>Operating System <br>Computer Networks <br>Computer Organization & Architecture <br>
-              Digital Logic <br> Theory of Computation <br> DBMS
-            </p>
-           </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects -->
-
-      <section class="container-fluid fourth-page">
-        <h1 class="text-center" style="background-color: #f4f4f4; color: #161616;">Projects</h1><br>
-        <div class="row">
-          <div class="col ">
-            <div class="card fourth-box" style="width: 18rem;">
-              <img src="webDev.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Portfolio Website</h5>
-                <p class="card-text">It is Website showing all about my skills,projects,experiances and achievments.</p>
-                <a href="http://127.0.0.1:5500/Portfolio.html" class="btn btn-primary">Details</a>
-                <a href="http://127.0.0.1:5500/Portfolio.html" class="btn btn-primary">Visit</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card fourth-box" style="width: 18rem;">
-              <img src="AndroidDev.jpg" class="card-img-top" alt="..." height="150px">
-              <div class="card-body">
-                <h5 class="card-title">Android Apk</h5>
-                <p class="card-text">It is innovative project to make offline Android application. <br>It is in working state.</p>
-                <button type="button" class="btn btn-primary">Details</button>
-                <button class="btn btn-primary" type="button" disabled>
-                  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                  <span role="status">Working...</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card fourth-box" style="width: 18rem;">
-              <img src="ML.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Criminal Activity Detection System</h5>
-                <p class="card-text">It is final year project,monitoring live cctv footage.</p>
-                <button type="button" class="btn btn-primary">Details</button>
-                <button class="btn btn-primary" type="button" disabled>
-                  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                  <span role="status">Working...</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- contact -->
-      <h1 class="text-center" style="background-color: #f4f4f4; color: #161616;">Contact Me</h1><br>
-      <section class="d-flex justify-content-center">
-        
-        <div>
-          <div>
-            <p><img src="whatsapp.png" alt="" height="20px" width="20px">&nbsp; &nbsp;<a href="tel:9322118373"><b>+91-9322118373</b></a></p>
-            
-          </div>
-          <div>
-            <p><img src="mail.png" alt="" height="20px" width="20px">&nbsp; &nbsp;<a href="mailto:your.kiranmurtadak1234@gmail.com">kiranmurtadak1234@gmail.com</a></p>
-          </div>
-          <div >
-            <p><img src="LinkedIn.jpg" alt="" height="20px" width="20px">&nbsp; &nbsp;<a href="https://www.linkedin.com/in/kiran-murtadak-820883253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">View Profile</a></p>
-          </div>
-          </div>
-      </section>
-      <!-- footer -->
-      <div class="footer">
-        <p>&#169; copyright reserved @kiran Murtadak | 2024</p>
+  <!-----nav bar-->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+    <div class="container-fluid">
+      <img src="portfolio-img.png" alt="fg" height="40px" width="50px">&nbsp;&nbsp;
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aliceblue;" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aliceblue;" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aliceblue;" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aliceblue;" href="#certificate">Certification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aliceblue;" href="#contact">Contact Me</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+
+
+  <!-- Introduction -->
+  <section class="intro">
+    <div class="d-flex flex-row mb-3 justify-content-center align-items-center first-page">
+      <div class="p-2"><img id="img" src="KiranBgRem.png" alt="" height="200" width="200"></div>
+      <div class="p-2">
+        <p style="line-height: 24px;">Hello I'm <br><span style="font-size: 34px;"><b>Kiran
+              Murtadak</b></span><br>Information Technology Student</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About me -->
+
+  <section id="about" class="container-fluid second-page">
+    <h1 class="text-center" style="background-color: #f4f4f4; color: #000000;">About Me</h1><br>
+    <div class="row">
+      <div class="row text-center">
+        <h4 style="color: #00478d;">Vision</h4>
+        <p style="color: #4f4f4f;">I am hard-working, honest individual who likes to take responsibility
+          and giving 100%. I am always eager to learn new things rather than
+          giving up. My aim is to become an expert in the field of software
+          development.</p>
+      </div>
+      <div class="col second-box">
+        <h4 class="text-center" style="color: #00478d;">SSC</h4>
+        <p><em>Gadge Maharaj Awjinath Vidyalaya,Mirpur-Lohare</em></p>
+        <p>Secure Percentage : <span style="color: #00478d;font-style: italic;">88.40%</span> <br><br>
+          3rd Rank in Gadge Maharaj Mission Mumbai in all over Maharashtra</p>
+      </div>
+      <div class="col second-box">
+        <h4 style="color: #00478d;">Bachelor Degree</h4>
+        <p><em>Amrutvahini College of Engineering,Sangamner</em></p>
+        <p> <u>Information Technology</u></p>
+        <p>CGPA's :<br><br><a type="button" class="btn btn-primary " href="FE_result.pdf" target="_blank">FE-9.05</a>
+          <a href="SE_result.pdf" target="_blank"><button type="button"
+              class="btn btn-primary">SE-8.43</button></a><br><br>
+          <a type="button" class="btn btn-primary ml-2" href="TE_result.pdf" target="_blank">TE-9.67</a>
+          <button type="button" class="btn btn-primary ml-2">BE- ......</button>
+        </p>
+      </div>
+      <div class="col second-box">
+        <h4 class="text-center" style="color: #00478d;">HSC</h4>
+        <p><em>P.V.P. Junior College,Loni</em></p>
+        <p>Secure Percentage : <span style="color: #00478d;font-style: italic;">84.30%</span></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills" class="container-fluid third-page">
+    <h1 class="text-center" style="background-color: #f4f4f4; color: #161616;">Skills</h1><br>
+    <div class="row text-center">
+      <div class="col third-box">
+        <h4 style="color: #00478d;">Programming Languages</h4><br>
+
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">C-Language</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80% ">C++</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Java</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 10%">Python</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Html</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30% ">CSS</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%">Bootstrap</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">Object-Oriented
+            Programming</div>
+        </div><br>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">Data Structure and
+            Algorithm</div>
+        </div>
+      </div>
+      <div class="col third-box">
+        <div class="row third-row" style="border: 2px solid black;">
+          <h4 style="color: #00478d;">FrameWorks</h4>
+          <p>Django <br>ReactJS</p>
+        </div>
+        <div class="row text-center third-row" style="border: 2px solid black;">
+          <h4 style="color: #00478d;">Knowledge</h4>
+          <p>Operating System <br>Computer Networks <br>Computer Organization & Architecture <br>
+            Digital Logic <br> Theory of Computation <br> DBMS
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+
+  <section class="container-fluid fourth-page" id="project">
+    <h1 class="text-center" style="background-color: #f4f4f4; color: #161616;">Projects</h1><br>
+    <div class="row">
+      <div class="col">
+        <div class="card fourth-box" ">
+          <img
+            src="https://img.freepik.com/free-vector/isometric-education-illustration_23-2148074450.jpg?w=740&t=st=1712847469~exp=1712848069~hmac=9e13aed5a9cbf45b610bb2f345be6e3270f007a35fae075e553675ea474a2de5"
+            class="card-img-top" alt="..." height="150px">
+          <div class="card-body">
+            <h5 class="card-title">StudySphere-EduTech Website</h5>
+            <p class="card-text">It is EduTech website for students.</p>
+            <!-- Detail -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Details</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+              id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body align-items-left">
+                <h4>Discription</h4>
+                <p>In our platform, we offer freely accessible courses where we curate YouTube videos scattered across
+                  the web and organize them into a structured learning path. This guided approach enables students to
+                  follow a clear trajectory in their learning journey. Beyond video content, we provide a comprehensive
+                  array of features akin to those found in paid platforms. These include a robust doubt resolution
+                  engine, curated articles, user-generated notes, and regular assessments. Moreover, we administer a
+                  final examination, granting successful participants a certificate upon completion.</p>
+                  <h4>Technologis: </h4>
+                  
+                    <ul type="disc">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Bootstrap</li>
+                      <li>ReactJS</li>
+                      <li>MongoDB</li>
+                    </ul>
+                  
+              </div>
+            </div><br><br>
+            <a type="button" class="btn btn-primary" href="https://github.com/Kiran200413/Techathon" target="_blank">Souce
+              Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col ">
+        <div class="card fourth-box">
+          <img src="webDev.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">It is Website showing all about my skills,projects,experiances and achievments.</p>
+            <a href="http://127.0.0.1:5500/Portfolio.html" class="btn btn-primary">Details</a>
+            <a href="http://127.0.0.1:5500/Portfolio.html" class="btn btn-primary">Visit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card fourth-box"">
+          <img src="AndroidDev.jpg" class="card-img-top" alt="..." height="150px">
+          <div class="card-body">
+            <h5 class="card-title">Android Apk</h5>
+            <p class="card-text">It is innovative project to make offline Android application. <br>It is in working
+              state.</p>
+            <button type="button" class="btn btn-primary" disabled>Details</button>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card fourth-box"">
+          <img src="ML.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Criminal Activity Detection System</h5>
+            <p class="card-text">It is final year project,monitoring live cctv footage.</p>
+            <button type="button" class="btn btn-primary" disabled>Details</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Certification -->
+  <h1 class="text-center" id="contact" style="background-color: #f4f4f4; color: #161616;">Certification</h1><br>
+
+  <section class="container" id="certificate">
+    <table class="table table-secondary table-striped">
+      
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Programming in Java<br><i style="font-size: 13px;color: #00478d;">IIT Kharagpur</i></td>
+          <td><a class="btn btn-success" href="Programming In Java.pdf" target="_blank">certificate</a></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Techathon<br><i style="font-size: 13px;color: #00478d;">AISSIMS,Pune <br>Organized by Innovation Foundation,Pune</i></td>
+          <td><a class="btn btn-success" href="Techathon.jpg" target="_blank">certificate</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- contact -->
+  <h1 class="text-center" id="contact" style="background-color: #f4f4f4; color: #161616;">Contact Me</h1><br>
+  <section class="d-flex justify-content-center">
+
+    <div>
+      <div>
+        <p><img src="whatsapp.png" alt="" height="20px" width="20px">&nbsp; &nbsp;<a
+            href="tel:9322118373"><b>+91-9322118373</b></a></p>
+
+      </div>
+      <div>
+        <p><img src="mail.png" alt="" height="20px" width="20px">&nbsp; &nbsp;<a
+            href="mailto:your.kiranmurtadak1234@gmail.com">kiranmurtadak1234@gmail.com</a></p>
+      </div>
+      <div>
+        <p><img src="LinkedIn.jpg" alt="" height="20px" width="20px">&nbsp; &nbsp;<a
+            href="https://www.linkedin.com/in/kiran-murtadak-820883253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">View
+            Profile</a></p>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <div class="footer">
+    <p>&#169; copyright reserved @kiran Murtadak | 2024</p>
+  </div>
 </body>
+
 </html>
-
-
-        
