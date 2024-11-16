@@ -31,13 +31,14 @@
   .second-box{
     margin: 4em;
     border: 2px solid #bcbcbc;
+    /* background-color: #e7f6ff; */
     border-radius: 20px;
     justify-content: space-between;
     text-align: center;
     padding: 10px;
   }
   .second-box:hover{
-    background-color: rgb(254, 188, 250);
+    background-color: #e9ffd9;
   }
   .third-page{
     /* height: 100vh; */
@@ -47,12 +48,24 @@
   }
   .third-box{
     margin: 2em;
-    /* border: 2px solid #e9ffd9; */
+    /* background-color: #ebf6f7; */
+    border: 2px solid #000000;
     border-radius: 20px;
-    justify-content: space-around;
-    text-align: center;
+    /* justify-content: space-around;
+    text-align: center; */
     padding: 10px;
     
+  }
+  .third-box:hover{
+    background-color: #e9ffd9;
+  }
+  .dummybox{
+    margin: 2em;
+    
+    border-radius: 20px;
+    /* justify-content: space-around;
+    text-align: center; */
+    padding: 10px;
   }
   .third-row{
     margin: 1em;
@@ -98,3 +111,22 @@
     justify-content: center;
     
 } */
+#sumago{
+  margin-left: 12%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: #e3faff;
+  border: 1px solid #c4c4c4; 
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    h5{
+      
+      color:rgb(0, 0, 0);
+    }
+}
+.ach{
+  
+}
